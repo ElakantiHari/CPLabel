@@ -19,10 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
-        
-        
-        self.textLabel?.text = "Hello World bhusdbvghsdv hjsbvhsdvb jsdbjhsvb\n bsdhvbdhvdnfjkvdb bv bvjdv jdnjv jbnvjvbd bjdbvjvbj."
+        self.textLabel?.text = "Hello World 1234567890 testCommit@gmail.com "
     }
 
     override func didReceiveMemoryWarning() {
