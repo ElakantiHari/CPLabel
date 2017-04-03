@@ -1,9 +1,9 @@
 {
   "name": "CPLabel",
   "version": "0.1.0",
-  "summary": "A short description of CPLabel.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Hari Krishna/CPLabel",
+  "summary": "A painless way to integrate UILabel with features of select copy options",
+  "description": "TODO: Simply download the file and copy the CLable.swift file to your project.",
+  "homepage": "https://github.com/ElakantiHari/CPLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"

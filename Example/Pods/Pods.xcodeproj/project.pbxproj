@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00E400217F626729EDABD4751C016E82 /* CPLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4D764BB5E09CAD5ECD1470F5AF3BAD /* CPLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05B53A38C7C4A45B0C92A79DC5BE55A3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E51EB6750656F919C614C0730185F /* ReplaceMe.swift */; };
-		0B4294CCF8BC849A20DCFB19B9588705 /* CPLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6506873811E45277C93D491E2E4EF759 /* CPLabel-dummy.m */; };
 		15A86C0F7B9CF7A27C84CF392CD8C4AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		2B49182E7C06D60150D1E097CD3CE8E2 /* Pods-CPLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0438D6178D592F8B036A45D1C0CBBC08 /* Pods-CPLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A84E35886D44302A2C83DAD79F988EE /* Pods-CPLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6D3182942829FF152F14CEA3DCAEB3 /* Pods-CPLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C8600D2DFB497A8F55455DAD2F8682D /* Pods-CPLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F71CB8F33A3D2C8A8C0391E4ABF33 /* Pods-CPLabel_Tests-dummy.m */; };
+		4268D107AFFCB5158B2D9ECC8146D579 /* CPLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6506873811E45277C93D491E2E4EF759 /* CPLabel-dummy.m */; };
 		713B1E667A84EE9B2A9903DE4073C1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		78C1B927D98EF7CC01E409125A418851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		93A035BC68587EBE645363FD5D089194 /* Pods-CPLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00954B81E4D100A8680F133024411A /* Pods-CPLabel_Example-dummy.m */; };
+		A73225F423E696761DC8BBF5717D8DC9 /* CPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1321337DCEB74989FCAD16EDD544CBA /* CPLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		670A41A787A828B849D2415FFAF0CA9A /* Pods-CPLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CPLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		6B78975D49497E195266FCD0D8A18FF7 /* CPLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPLabel-prefix.pch"; sourceTree = "<group>"; };
 		6E5A82A8EEA412CA02522275626058A9 /* Pods-CPLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B3E51EB6750656F919C614C0730185F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B2211C31ABC7D30707E90EF45E8EF7C /* Pods-CPLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		A1321337DCEB74989FCAD16EDD544CBA /* CPLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPLabel.swift; sourceTree = "<group>"; };
 		AAEE9590A038A36A172C945B41C405CB /* CPLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CPLabel.modulemap; sourceTree = "<group>"; };
 		B181C8844140DF43526AC232C11E9F57 /* Pods-CPLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE04AE3AAD94F5864AF87A7E9ED1D1E2 /* Pods-CPLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -92,15 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20A511B0BD4DD2DE10A15403E0A29951 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8B3E51EB6750656F919C614C0730185F /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		2D8895523F4BC0F298E59D2DE1E7E308 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +118,15 @@
 				FBBAB265C681DF8367A207EB19F6BFE9 /* Pods_CPLabel_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		65CE66DED114314E95336678D0C7CA35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1321337DCEB74989FCAD16EDD544CBA /* CPLabel.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		67E7164C21EE79EEDAA596B1E0F8E981 /* Pods-CPLabel_Tests */ = {
@@ -169,7 +169,7 @@
 		804EA29D9F65FAF84288B735E6F63029 /* CPLabel */ = {
 			isa = PBXGroup;
 			children = (
-				20A511B0BD4DD2DE10A15403E0A29951 /* Classes */,
+				65CE66DED114314E95336678D0C7CA35 /* Classes */,
 			);
 			name = CPLabel;
 			path = CPLabel;
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E1FD237424A95ED645BEA84026DA1B /* Build configuration list for PBXNativeTarget "CPLabel" */;
 			buildPhases = (
-				FF965209C5E59E71EA808DA0803C081B /* Sources */,
+				A48F0FE9AD51E221725AE90B466247CD /* Sources */,
 				F21B8C9266D8833A303F356BABF67AFD /* Frameworks */,
 				3F540E3CC805CF88994BAA1249DDCD95 /* Headers */,
 			);
@@ -351,12 +351,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF965209C5E59E71EA808DA0803C081B /* Sources */ = {
+		A48F0FE9AD51E221725AE90B466247CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4294CCF8BC849A20DCFB19B9588705 /* CPLabel-dummy.m in Sources */,
-				05B53A38C7C4A45B0C92A79DC5BE55A3 /* ReplaceMe.swift in Sources */,
+				4268D107AFFCB5158B2D9ECC8146D579 /* CPLabel-dummy.m in Sources */,
+				A73225F423E696761DC8BBF5717D8DC9 /* CPLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

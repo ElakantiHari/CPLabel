@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import CPLabel
 
 class ViewController: UIViewController {
 
+
+//    @IBOutlet var textLabel: CPLabel?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
