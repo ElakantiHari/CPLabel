@@ -9,9 +9,9 @@
 import UIKit
 import Foundation
 
-class CPLabel: UITextView {
+public class CPLabel: UITextView {
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         
         self.editable   = false
         self.selectable = true
@@ -33,11 +33,11 @@ class CPLabel: UITextView {
 }
 
 extension CPLabel: UITextViewDelegate {
-    func textView(textView: UITextView, shouldInteractWithURL URL: NSURL, inRange characterRange: NSRange) -> Bool {
+    public func textView(textView: UITextView, shouldInteractWithURL URL: NSURL, inRange characterRange: NSRange) -> Bool {
         return true
     }
     
-    func textView(textView: UITextView, shouldInteractWithTextAttachment textAttachment: NSTextAttachment, inRange characterRange: NSRange) -> Bool {
+    public func textView(textView: UITextView, shouldInteractWithTextAttachment textAttachment: NSTextAttachment, inRange characterRange: NSRange) -> Bool {
         return true
     }
     

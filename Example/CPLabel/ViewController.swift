@@ -12,12 +12,17 @@ import CPLabel
 class ViewController: UIViewController {
 
 
-//    @IBOutlet var textLabel: CPLabel?
+    @IBOutlet weak var textLabel: CPLabel?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+        
+        self.textLabel?.text = "Hello World bhusdbvghsdv hjsbvhsdvb jsdbjhsvb\n bsdhvbdhvdnfjkvdb bv bvjdv jdnjv jbnvjvbd bjdbvjvbj."
     }
 
     override func didReceiveMemoryWarning() {

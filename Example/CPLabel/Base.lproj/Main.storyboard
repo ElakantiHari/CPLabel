@@ -37,6 +37,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="fjE-2d-nF5" secondAttribute="trailing" id="wwt-NX-kQj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textLabel" destination="fjE-2d-nF5" id="6W9-ZX-fsB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
