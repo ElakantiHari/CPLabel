@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPLabel_Example' do
+  pod 'CPLabel', :path => '../'
+
+  target 'CPLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - CPLabel (0.1.0)
+
+DEPENDENCIES:
+  - CPLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CPLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CPLabel: 45157acd5fd2bce19daf27e7f4d039c2f02ed900
+
+PODFILE CHECKSUM: 9625e20a9584e65d9793d5ed0b9114cf087fdf83
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module CPLabel {
+  umbrella header "CPLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
