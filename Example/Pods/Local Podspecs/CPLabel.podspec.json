@@ -1,6 +1,6 @@
 {
   "name": "CPLabel",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "A painless way to integrate UILabel with features of select copy options",
   "description": "TODO: Simply download the file and copy the CLable.swift file to your project.",
   "homepage": "https://github.com/ElakantiHari/CPLabel",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ElakantiHari/CPLabel.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"

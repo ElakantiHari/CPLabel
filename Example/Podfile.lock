@@ -1,5 +1,5 @@
 PODS:
-  - CPLabel (0.1.0)
+  - CPLabel (0.1.4)
 
 DEPENDENCIES:
   - CPLabel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CPLabel: 40ad07013e91b1c8da59953d4afa80b34c5d14e4
+  CPLabel: 6c7c11491bbcb8b63cbded6242376b7e129f9427
 
 PODFILE CHECKSUM: 9625e20a9584e65d9793d5ed0b9114cf087fdf83
 
