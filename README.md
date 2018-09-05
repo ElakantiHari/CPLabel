@@ -21,6 +21,9 @@ pod 'CPLabel', '~> 0.1.4'
 
 ## for swift 3.0 use:
 pod 'CPLabel', '~> 0.1.5'
+
+## for swift 4.0 use:
+pod 'CPLabel', '~> 0.1.6'
 ```
 
 ### Usage
@@ -41,7 +44,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textLabel: CPLabel?
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.textLabel?.text = "Hello World 1234567890 testCommit@gmail.com "
+        self.textLabel?.text = "\n\n\nHello World 1234567890 testCommit@gmail.com "
     }
 }
 ```

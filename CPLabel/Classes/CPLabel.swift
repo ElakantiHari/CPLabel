@@ -2,11 +2,11 @@
 //  CPLabel.swift
 //  Pods
 //
-//  Created by Apple on 03/04/17.
+//  Created by Apple on 05/09/18.
 //
 //
 
-// Repository 0.1.5
+// Repository 0.1.6
 
 import UIKit
 import Foundation
