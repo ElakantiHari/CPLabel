@@ -16,7 +16,8 @@ CPLabel is available through [CocoaPods](http://cocoapods.org).
 ### For latest release in cocoapods
 
 ```ruby
-pod 'CPLabel'
+## for swift 2.3 use:
+pod 'CPLabel', '~> 0.1.4'
 ```
 
 ### Usage
