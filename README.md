@@ -44,6 +44,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textLabel: CPLabel?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.textLabel?.text = "\n\n\nHello World 1234567890 testCommit@gmail.com "
     }
 }
