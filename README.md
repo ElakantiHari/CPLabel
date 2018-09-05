@@ -17,10 +17,10 @@ CPLabel is available through [CocoaPods](http://cocoapods.org).
 
 ```ruby
 ## for swift 2.3 use:
-pod 'CPLabel', '~> 0.1.4'
+pod 'CPLabel', '~> 1.1.4'
 
 ## for swift 3.0 use:
-pod 'CPLabel', '~> 0.1.5'
+pod 'CPLabel', '~> 1.1.5'
 ```
 
 ### Usage
