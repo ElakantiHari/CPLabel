@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPLabel'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A painless way to integrate UILabel with features of select copy options'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Simply download the file and copy the CLable.swift file to your project.
                        DESC
 
-  s.homepage         = 'https://github.com/ElakantiHari/CPLabel'
+  s.homepage         = 'https://github.com/harielakanti/CPLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hari Krishna' => 'harielakanti@gmail.com' }
-  s.source           = { :git => 'https://github.com/ElakantiHari/CPLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/harielakanti/CPLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
